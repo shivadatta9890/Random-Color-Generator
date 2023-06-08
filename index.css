@@ -1,0 +1,37 @@
+body{
+    display:grid;
+    place-items:center;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    font-family: 'Segoe UI';
+    transition: 1s;
+    
+}
+#container{
+    width:300px;
+    background:white;
+    border:1px solid grey;
+    padding:10px 15px;
+    display:grid;
+    place-items: center;
+    border-radius:20px;
+    height:150px;
+}
+.btn{
+    margin:20px 0;
+    padding:5px 10px;
+    font-weight:bold;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size:25px;
+    background:none;
+}
+a{
+    color:white;
+    text-decoration:none;
+    padding:5px 8px;
+    font-size:25px;
+}
+
